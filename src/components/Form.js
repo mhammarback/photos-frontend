@@ -29,11 +29,9 @@ export const Form = () => {
 		<Container>
 		<FormContainer onSubmit={handleSubmit}> 
 		  <Label htmlFor="animal name">
-				Name:
-				<Input type="text" value={name} onChange={(event) => setName(event.target.value)} id="animal-name" required /> 
+				<Input type="text" value={name} onChange={(event) => setName(event.target.value)} id="animal-name" placeholder="name/breed" required /> 
 			</Label>
 			<Label htmlFor="animal-image">
-				Image:
 				<Input type="file" ref={fileInput} id="animal-image" required />
 			</Label>
 

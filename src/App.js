@@ -16,8 +16,6 @@ export const App = () => {
 }
 
 const Container = styled.main`
-  background: red; 
+  background: #f0e4d7; 
   max-width: 900px;
-  margin: 5px;
-  border: 2px solid green;
 `

@@ -1,13 +1,13 @@
 import React from 'react'
 
-import { HeaderContainer, HeaderTitle  } from '../lib/header-styles'
-import Cat from'../assets/cat'
+import { HeaderContainer, HeaderTitle, HeaderImage  } from '../lib/header-styles'
+import Cat from'../assets/cat.png'
 
 export const Header = () => {
 	return (
 		<HeaderContainer >
-		  <HeaderTitle >My favorite photos</HeaderTitle >
 			<HeaderImage src={Cat} alt="animated cat" />
+			<HeaderTitle >My favorite photos</HeaderTitle >
 		</HeaderContainer >
 	)
 }
